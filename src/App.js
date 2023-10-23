@@ -5,6 +5,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Work from './components/Work';
 import Contact from './components/Contact';
+import TestiMonials from './components/Testimonials';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <section><About/></section>
       <section><Skills/></section>
       <section><Work/></section>
+      <section><TestiMonials/></section>
       <section><Contact/></section>
     </div>
   );
