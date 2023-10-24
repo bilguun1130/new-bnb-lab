@@ -57,7 +57,7 @@ const TestiMonials = () => {
         }
     };
     return (
-        <section id="testimonial" className="testimonials w-full h-screen bg-[#1B1B1E] flex items-center p-4">
+        <section id="testimonial" name="testimonials" className="testimonials w-full h-screen bg-[#1B1B1E] flex items-center p-4">
             <div className="container mt-5">
                 <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center h-full">
                     <p className='text-4xl font-bold inline underline  decoration-white decoration-4 text-[#00FF87]'>Customer Review</p>
@@ -71,7 +71,7 @@ const TestiMonials = () => {
                                 testiMonials.length === 0 ?
                                     <div class="item">
                                         <div class="shadow-effect">
-                                            <img class="img-circle" src={userPic} />
+                                            <img class="img-circle" src={userPic} loading='lazy'/>
 
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
                                         </div>
